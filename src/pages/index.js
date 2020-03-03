@@ -41,6 +41,7 @@ const IndexPage = () => {
         }}></div>
 
         <div className="centerContainer">
+          <h1>Your List.</h1>
           <div>
             <ButtonItem
               add={(item) => addList(item)}

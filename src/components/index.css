@@ -20,14 +20,15 @@ body {
 }
 
 .containerList{
+  border: 1px solid black;
   display: flex;
   flex-direction: row;
-  border: 1px solid black;
 }
 
 .ul{
   list-style-type: none;
-  text-align: left;
+  margin: 0;
+  padding-top: 0;
 }
 
 .li:hover{
@@ -42,6 +43,10 @@ body {
 .remove:hover{
   color: red;
   cursor: pointer
+}
+
+.removeAll {
+  font-size: 15px;
 }
 
 .removeAll:hover {
